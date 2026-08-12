@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #ddd;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 95%;
+            height: 550px;
+            margin: 25px auto;
+            background: #b9aaaa;
+            border-radius: 20px;
+            padding: 15px;
+        }
+
+        /* Header */
+        header {
+            height: 70px;
+            background: #d47d78;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            padding: 10px;
+        }
+
+        .circle {
+            width: 40px;
+            height: 40px;
+            background: #e8f5f5;
+            border-radius: 50%;
+        }
+
+        .menu {
+            width: 80px;
+            height: 12px;
+            background: #e8f5f5;
+        }
+
+        .search {
+            width: 300px;
+            height: 45px;
+            background: #dff2f3;
+            border-radius: 25px;
+            margin-left: auto;
+        }
+
+        /* Main area */
+        .main {
+            display: flex;
+            height: 350px;
+        }
+
+        .sidebar {
+            width: 60px;
+            background: #e9dede;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            height: 100px;
+            flex: 1;
+            background: #dff2f3;
+            border-radius: 20px;
+        }
+
+        .lines {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .line {
+            width: 80px;
+            height: 15px;
+            background: #e8f5f5;
+        }
+
+        .button {
+            width: 80px;
+            height: 25px;
+            background: #dff2f3;
+            margin: 20px auto;
+        }
+
+        /* Footer */
+        footer {
+            height: 90px;
+            background: #a99d96;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding: 15px;
+        }
+
+        .footer-box {
+            width: 80px;
+            height: 15px;
+            background: #e8f5f5;
+        }
+
+        .footer-big {
+            width: 150px;
+            height: 45px;
+            background: #e8f5f5;
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header>
+        <div class="circle"></div>
+
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="menu"></div>
+
+        <div class="search"></div>
+
+        <div class="circle"></div>
+    </header>
+
+    <!-- Main -->
+    <div class="main">
+
+        <div class="sidebar"></div>
+
+        <div class="content">
+
+            <div class="cards">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="button"></div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-box"></div>
+        <div class="footer-box"></div>
+        <div class="footer-box"></div>
+
+        <div class="footer-big"></div>
+    </footer>
+
+</div>
+
+</body>
+</html>
