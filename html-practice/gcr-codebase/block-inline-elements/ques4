@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Layout</title>
+</head>
+<body>
+
+    <header>
+        <h1>TechSolutions Pvt. Ltd.</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About the Company</h2>
+            <p>TechSolutions provides technology solutions to businesses and organizations.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services Offered</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>Cloud Services</li>
+                <li>IT Consulting</li>
+            </ul>
+        </section>
+    </main>
+
+    <aside>
+        <blockquote>
+            "Our goal is to use technology to create meaningful solutions."
+        </blockquote>
+    </aside>
+
+    <footer id="contact">
+        <p>Email: contact@techsolutions.example</p>
+        <p>Address: 123 Business Road, New Delhi, India</p>
+    </footer>
+
+</body>
+</html>

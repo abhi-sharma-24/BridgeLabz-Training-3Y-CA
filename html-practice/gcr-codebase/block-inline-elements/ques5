@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Hierarchy</title>
+</head>
+<body>
+
+    <h1>University</h1>
+
+    <ul>
+        <li>
+            Computer Science
+            <ol>
+                <li>
+                    BCA
+                    <ul>
+                        <li>Programming</li>
+                        <li>Web Development</li>
+                        <li>Database</li>
+                    </ul>
+                </li>
+                <li>
+                    B.Sc. Computer Science
+                    <ul>
+                        <li>Data Structures</li>
+                        <li>Operating Systems</li>
+                        <li>Networking</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+
+        <li>
+            Commerce
+            <ol>
+                <li>
+                    B.Com
+                    <ul>
+                        <li>Accounting</li>
+                        <li>Economics</li>
+                        <li>Finance</li>
+                    </ul>
+                </li>
+                <li>
+                    M.Com
+                    <ul>
+                        <li>Advanced Accounting</li>
+                        <li>Business Law</li>
+                        <li>Taxation</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+
+        <li>
+            Arts
+            <ol>
+                <li>
+                    B.A.
+                    <ul>
+                        <li>History</li>
+                        <li>Political Science</li>
+                        <li>English Literature</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ul>
+
+</body>
+</html>
