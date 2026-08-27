@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Paris</title>
+    <link rel="stylesheet" href="question2.css">
+</head>
+<body>
+
+    <header>
+        <h1>Discover Paris</h1>
+    </header>
+
+    <nav>
+        <a href="#history">History</a>
+        <a href="#culture">Culture</a>
+        <a href="#travel">Travel</a>
+    </nav>
+
+    <main>
+        <section id="history" class="history">
+            <h2>History</h2>
+            <p>Paris has a rich history that spans many centuries.</p>
+        </section>
+
+        <section id="culture" class="culture">
+            <h2>Culture</h2>
+            <p>Paris is famous for art, architecture, fashion, and literature.</p>
+        </section>
+
+        <section id="travel" class="travel">
+            <h2>Travel</h2>
+            <p>Visitors can explore museums, monuments, parks, and restaurants.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Discover Paris</p>
+    </footer>
+
+</body>
+</html>

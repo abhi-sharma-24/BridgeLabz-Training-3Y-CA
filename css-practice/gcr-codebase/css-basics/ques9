@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Magazine</title>
+    <link rel="stylesheet" href="question9.css">
+</head>
+<body>
+
+    <main class="newspaper">
+
+        <h1>Daily Magazine</h1>
+
+        <article>
+            <img src="city.jpg" alt="City view">
+
+            <p>Modern cities are changing rapidly as technology and innovation become important parts of everyday life. New infrastructure is helping communities become more connected.</p>
+
+            <p>Public transportation, renewable energy, and digital services are transforming how people live and work. These developments can make cities more efficient.</p>
+
+            <p>Technology also provides opportunities for businesses and students. Online education allows people to access information from many different places.</p>
+
+            <p>However, modern development must be balanced with environmental responsibility. Green spaces and sustainable practices are essential for healthy communities.</p>
+
+            <p>Future cities will likely combine technology with sustainable design. Planning and cooperation can help create better environments for everyone.</p>
+
+        </article>
+
+    </main>
+
+</body>
+</html>

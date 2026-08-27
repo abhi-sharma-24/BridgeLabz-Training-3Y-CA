@@ -1,0 +1,182 @@
+/* Global box model */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #172033;
+}
+
+/* Sticky header */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    padding: 20px 5%;
+    background-color: rgba(23, 32, 51, 0.96);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+.site-header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero uses relative positioning for its content */
+.hero {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: 5px solid white;
+    outline: 2px solid #172033;
+    background:
+        linear-gradient(rgba(10, 30, 60, 0.65), rgba(10, 30, 60, 0.65)),
+        url("hero.jpg") center / cover;
+    color: white;
+}
+
+.hero-content {
+    position: absolute;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+/* Two-column About section */
+.about {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 80px 10%;
+    margin: 20px 0;
+    background-color: #eef4fa;
+}
+
+.about > div,
+.about img {
+    width: 50%;
+}
+
+.about img {
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+/* Services section */
+.services {
+    padding: 80px 8%;
+    background: linear-gradient(135deg, #e8f1ff, #dce9e2);
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    gap: 30px;
+}
+
+.service-container article {
+    flex: 1;
+    padding: 30px;
+    border: 2px solid #9aabc0;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Contact section */
+.contact {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #ccd4df;
+    outline: 3px solid rgba(52, 104, 160, 0.15);
+    border-radius: 12px;
+    background-color: white;
+}
+
+.contact label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    border: 1px solid #9aa8b7;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #172033;
+    color: white;
+}
+
+/* Fixed footer button demonstrates fixed positioning */
+footer {
+    position: relative;
+    padding: 25px;
+    text-align: center;
+    background-color: #172033;
+    color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+    .site-header {
+        flex-direction: column;
+    }
+
+    .site-header nav {
+        margin-top: 15px;
+    }
+
+    .about,
+    .service-container {
+        flex-direction: column;
+    }
+
+    .about > div,
+    .about img {
+        width: 100%;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+}

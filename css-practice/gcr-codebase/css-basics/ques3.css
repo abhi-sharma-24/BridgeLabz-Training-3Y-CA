@@ -1,0 +1,52 @@
+/* Page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #222;
+}
+
+.team {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    margin: 10px;
+    border: 2px solid #b8c2cc;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card h3 {
+    color: #356cb6;
+}
+
+.card.lead {
+    background-color: #e1f1ff;
+    border: 3px dashed #2563a6;
+}
+
+@media (max-width: 600px) {
+    .team-container {
+        flex-direction: column;
+    }
+}

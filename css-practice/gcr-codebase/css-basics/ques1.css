@@ -1,0 +1,119 @@
+/* Basic page layout */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #172033;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fixed header stays at the top while scrolling */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 70px;
+    padding: 1em 5%;
+    background-color: #172a46;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Main content leaves space for the fixed header */
+main {
+    flex: 1;
+    padding-top: 70px;
+}
+
+.hero {
+    min-height: 70vh;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dcecff;
+}
+
+.hero div {
+    width: 45%;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero img {
+    width: 30%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 5px solid #172a46;
+}
+
+.about,
+.contact {
+    padding: 5rem 10%;
+    min-height: 30vh;
+}
+
+.about {
+    background-color: #ffffff;
+}
+
+.contact {
+    background-color: #c9e8e8;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #172a46;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero div,
+    .hero img {
+        width: 80%;
+    }
+}

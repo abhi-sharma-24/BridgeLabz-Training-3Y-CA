@@ -1,0 +1,85 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: #222;
+    background-color: #eeeeee;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background-color: #172a46;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #172a46;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Linear gradient section with fixed background */
+.history {
+    min-height: 500px;
+    padding: 100px 10%;
+    border: 5px solid #ffffff;
+    background: linear-gradient(135deg, #1d3557, #457b9d, #a8dadc);
+    background-attachment: fixed;
+    color: white;
+}
+
+.history h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* Radial gradient section with fixed background */
+.culture {
+    min-height: 500px;
+    padding: 100px 10%;
+    margin: 20px 0;
+    background: radial-gradient(circle, #f7d794, #e17055);
+    background-attachment: fixed;
+}
+
+.culture h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+/* Normal full-width section */
+.travel {
+    min-height: 500px;
+    padding: 100px 10%;
+    background-color: #dfe6e9;
+}
+
+.travel h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #172a46;
+    color: white;
+}
