@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+</head>
+<body>
+
+    <h1>Online Store</h1>
+
+    <table border="1">
+        <tr>
+            <th colspan="5">Product Catalog</th>
+        </tr>
+        <tr>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td><img src="laptop.jpg" alt="Laptop" width="100"></td>
+            <td>Laptop</td>
+            <td>15-inch laptop for work and study.</td>
+            <td>₹55,000</td>
+            <td rowspan="2">In Stock</td>
+        </tr>
+        <tr>
+            <td><img src="phone.jpg" alt="Smartphone" width="100"></td>
+            <td>Smartphone</td>
+            <td>Modern smartphone with HD display.</td>
+            <td>₹25,000</td>
+        </tr>
+        <tr>
+            <td><img src="headphones.jpg" alt="Headphones" width="100"></td>
+            <td>Headphones</td>
+            <td>Wireless noise-cancelling headphones.</td>
+            <td>₹3,500</td>
+            <td>Limited Stock</td>
+        </tr>
+    </table>
+
+</body>
+</html>
